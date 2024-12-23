@@ -1,11 +1,13 @@
 import Image from "next/image";
 import React from "react";
 import { Timeline } from "./timeline";
+import { SlCalender } from "react-icons/sl";
+
 
 export function TimelineDemo() {
   const data = [
     {
-      title: "REGISTER",
+      title: "REGISTRATION",
       content: (
         <div>
           <p className="text-neutral-800 dark:text-neutral-200 text-xs md:text-sm font-normal mb-8">
@@ -26,7 +28,7 @@ export function TimelineDemo() {
              </div>
             </div> */}
             <div className=" bg-gradient-to-r from-blue-200 via-gray-700 to-gray-500 rounded-lg object-cover h-30 md:h-44 lg:h-60 w-full shadow-[0_0_24px_rgba(34,_42,_53,_0.06),_0_1px_1px_rgba(0,_0,_0,_0.05),_0_0_0_1px_rgba(34,_42,_53,_0.04),_0_0_4px_rgba(34,_42,_53,_0.08),_0_16px_68px_rgba(47,_48,_55,_0.05),_0_1px_0_rgba(255,_255,_255,_0.1)_inset]">
-              <div className="p-3 sm:p-5 flex flex-col items-start justify-center">
+              <div className="p-2 sm:p-8 flex flex-col items-start justify-center">
                 <h2 className="text-white font-bold text-xs sm:text-2xl leading-tight mb-3">
                   Event Registration Starts - 
                 </h2>
@@ -43,7 +45,7 @@ export function TimelineDemo() {
               className="object-center rounded-lg object-cover h-40 md:h-44 lg:h-60 w-full shadow-[0_0_24px_rgba(34,_42,_53,_0.06),_0_1px_1px_rgba(0,_0,_0,_0.05),_0_0_0_1px_rgba(34,_42,_53,_0.04),_0_0_4px_rgba(34,_42,_53,_0.08),_0_16px_68px_rgba(47,_48,_55,_0.05),_0_1px_0_rgba(255,_255,_255,_0.1)_inset]"
             />
             <div className="bg-gradient-to-r from-blue-200 via-gray-700 to-gray-500 rounded-lg object-cover h-30 md:h-44 lg:h-60 w-full shadow-[0_0_24px_rgba(34,_42,_53,_0.06),_0_1px_1px_rgba(0,_0,_0,_0.05),_0_0_0_1px_rgba(34,_42,_53,_0.04),_0_0_4px_rgba(34,_42,_53,_0.08),_0_16px_68px_rgba(47,_48,_55,_0.05),_0_1px_0_rgba(255,_255,_255,_0.1)_inset]">
-              <div className="p-3 sm:p-5 flex flex-col items-start justify-center">
+              <div className="p-2 sm:p-8 flex flex-col items-start justify-center">
                 <h2 className="text-white font-bold text-xs sm:text-2xl leading-tight mb-3">
                 Event Registration closes -
                 </h2>
@@ -68,7 +70,7 @@ export function TimelineDemo() {
       ),
     },
     {
-      title: "ROUNDS",
+      title: "EVENT DETAILS",
       content: (
         <div>
           <p className="text-neutral-800 dark:text-neutral-200 text-xs md:text-sm font-normal mb-8">
@@ -81,19 +83,19 @@ export function TimelineDemo() {
           </p>
           <div className="grid grid-cols-2 gap-4">
             <Image
-              src="/img/img1.jpg"
+              src="/img/iete1.jpg"
               alt="round-1 date"
               width={500}
               height={500}
               className="rounded-lg object-cover h-40 md:h-44 lg:h-60 w-full shadow-[0_0_24px_rgba(34,_42,_53,_0.06),_0_1px_1px_rgba(0,_0,_0,_0.05),_0_0_0_1px_rgba(34,_42,_53,_0.04),_0_0_4px_rgba(34,_42,_53,_0.08),_0_16px_68px_rgba(47,_48,_55,_0.05),_0_1px_0_rgba(255,_255,_255,_0.1)_inset]"
             />
             <div className="bg-gradient-to-r from-blue-200 via-gray-700 to-gray-500 rounded-lg object-cover h-30 md:h-44 lg:h-60 w-full shadow-[0_0_24px_rgba(34,_42,_53,_0.06),_0_1px_1px_rgba(0,_0,_0,_0.05),_0_0_0_1px_rgba(34,_42,_53,_0.04),_0_0_4px_rgba(34,_42,_53,_0.08),_0_16px_68px_rgba(47,_48,_55,_0.05),_0_1px_0_rgba(255,_255,_255,_0.1)_inset]">
-              <div className="p-3 sm:p-5 flex flex-col items-start justify-center">
-                <h2 className="mb-5 text-white font-bold text-sm sm:text-2xl leading-tight">
-                ROUND-1
+              <div className="p-2 sm:p-8 flex flex-col items-start justify-center">
+                <h2 className="mb-5 text-white font-bold text-xs sm:text-2xl leading-tight">
+                PRIMIERLY ROUND
                 </h2>
                 <p className="text-white text-xs sm:text-sm leading-snug">
-                Problem statement selection and development
+                Problem statement selection and development.
                 </p>
               </div>
             </div>
@@ -106,19 +108,19 @@ export function TimelineDemo() {
               </div>
             </div> */}
             <Image
-              src="/img/img-3.jpg"
+              src="/img/iete3.jpg"
               alt="final round date"
               width={500}
               height={500}
               className="rounded-lg object-cover h-40 md:h-44 lg:h-60 w-full shadow-[0_0_24px_rgba(34,_42,_53,_0.06),_0_1px_1px_rgba(0,_0,_0,_0.05),_0_0_0_1px_rgba(34,_42,_53,_0.04),_0_0_4px_rgba(34,_42,_53,_0.08),_0_16px_68px_rgba(47,_48,_55,_0.05),_0_1px_0_rgba(255,_255,_255,_0.1)_inset]"
             />
              <div className="bg-gradient-to-r from-blue-200 via-gray-700 to-gray-500 rounded-lg object-cover h-30 md:h-44 lg:h-60 w-full shadow-[0_0_24px_rgba(34,_42,_53,_0.06),_0_1px_1px_rgba(0,_0,_0,_0.05),_0_0_0_1px_rgba(34,_42,_53,_0.04),_0_0_4px_rgba(34,_42,_53,_0.08),_0_16px_68px_rgba(47,_48,_55,_0.05),_0_1px_0_rgba(255,_255,_255,_0.1)_inset]">
-              <div className="p-3 sm:p-5 flex flex-col items-start justify-center">
-                <h2 className="mb-5 text-white font-bold text-sm sm:text-2xl leading-tight">
-                FINAL ROUND
+              <div className="p-2 sm:p-8 flex flex-col items-start justify-center">
+                <h2 className="mb-5 text-white font-bold text-xs sm:text-2xl leading-tight">
+                PRESENTATION ROUND
                 </h2>
                 <p className="text-white text-xs sm:text-sm leading-snug">
-                Evaluation by industry experts
+                Evaluation by industry experts.
                 </p>
               </div>
             </div>
@@ -138,34 +140,34 @@ export function TimelineDemo() {
       title: "DEADLINES",
       content: (
         <div>
-          <p className="text-neutral-300 dark:text-neutral-200 text-sm md:text-xl font-normal mb-4">
+          <p className="text-neutral-300 dark:text-neutral-200 text-lg md:text-xl font-normal mb-4">
             And here is the complete timeline of the event...
           </p>
           <div className="mb-8">
-            <div className="flex gap-2 items-center text-neutral-300 dark:text-neutral-300 text-xs md:text-lg">
-              ✅ Event start : 15 December 2024
+            <div className="flex gap-2 items-center text-neutral-300 dark:text-neutral-300 text-xs md:text-xl">
+            <SlCalender /> Event start : 23rd December 2024
             </div>
-            <div className="flex gap-2 items-center text-neutral-300 dark:text-neutral-300 text-xs md:text-lg">
-              ✅ Event closes : 5th January 2025
+            <div className="flex gap-2 items-center text-neutral-300 dark:text-neutral-300 text-xs md:text-xl">
+            <SlCalender /> Event closes : 13th January 2025
             </div>
-            <div className="flex gap-2 items-center text-neutral-300 dark:text-neutral-300 text-xs md:text-lg">
-              ✅ Round 1 : 9th January 2025
+            <div className="flex gap-2 items-center text-neutral-300 dark:text-neutral-300 text-xs md:text-xl">
+            <SlCalender /> Round 1 : 16th January 2025
             </div>
-            <div className="flex gap-2 items-center text-neutral-300 dark:text-neutral-300 text-xs md:text-lg">
-              ✅ Round 2 : 15Th January 2025
+            <div className="flex gap-2 items-center text-neutral-300 dark:text-neutral-300 text-xs md:text-xl">
+            <SlCalender /> Round 2 : 19th January 2025
             </div>
           </div>
-          <p className="text-neutral-800 dark:text-neutral-200 text-xs md:text-sm font-normal">
+          <p className="text-white dark:text-neutral-200 text-sm md:text-lg font-normal">
             {/* Check out{" "} */}
             <a
               //   href="https://aceternity.com/changelog"
               target="_blank"
               rel="noopener noreferrer"
-              className="text-blue-500 hover:text-blue-700 underline"
+              className="text-red-500 hover:text-red-700"
             >
-              {/* our changelog */}
+              Winner Announcement
             </a>{" "}
-            {/* for more details. */}
+            on 21st January 2025.
           </p>
         </div>
       ),

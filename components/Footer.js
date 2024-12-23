@@ -220,6 +220,7 @@ import React from 'react';
 import { FaFacebookF, FaInstagram, FaLinkedin, FaPhone } from "react-icons/fa";
 import { CiLocationOn } from "react-icons/ci";
 import Link from 'next/link';
+import { FaPhoneAlt } from "react-icons/fa";
 
 const Footer = () => {
   return (
@@ -275,15 +276,15 @@ const Footer = () => {
             <h3 className="text-xl font-bold mb-4 text-center md:text-left">Contacts</h3>
             <ul className="space-y-3">
               <li className=''>
-                <FaPhone className="inline-block align-middle mr-2" />
+                <FaPhoneAlt className="inline-block align-middle mr-2" />
                 Priyanshu Mukherjee (2021) - 9142040066
               </li>
               <li>
-                <FaPhone className="inline-block align-middle mr-2" />
+                <FaPhoneAlt className="inline-block align-middle mr-2" />
                 Adarsh Kumar (2022) - 7909041883
               </li>
               <li>
-                <FaPhone className="inline-block align-middle mr-2" />
+                <FaPhoneAlt className="inline-block align-middle mr-2" />
                 Faizan Ahmad (2022) - 8102061756
               </li>
             </ul>
