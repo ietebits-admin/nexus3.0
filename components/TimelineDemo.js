@@ -28,7 +28,7 @@ export function TimelineDemo() {
              </div>
             </div> */}
             <div className=" bg-gradient-to-r from-blue-200 via-gray-700 to-gray-500 rounded-lg object-cover h-30 md:h-44 lg:h-60 w-full shadow-[0_0_24px_rgba(34,_42,_53,_0.06),_0_1px_1px_rgba(0,_0,_0,_0.05),_0_0_0_1px_rgba(34,_42,_53,_0.04),_0_0_4px_rgba(34,_42,_53,_0.08),_0_16px_68px_rgba(47,_48,_55,_0.05),_0_1px_0_rgba(255,_255,_255,_0.1)_inset]">
-              <div className="p-5 sm:p-8 flex flex-col items-start justify-center">
+              <div className="p-2 sm:p-8 flex flex-col items-start justify-center">
                 <h2 className="text-white font-bold text-xs sm:text-2xl leading-tight mb-3">
                   Event Registration Starts - 
                 </h2>
@@ -45,7 +45,7 @@ export function TimelineDemo() {
               className="object-center rounded-lg object-cover h-40 md:h-44 lg:h-60 w-full shadow-[0_0_24px_rgba(34,_42,_53,_0.06),_0_1px_1px_rgba(0,_0,_0,_0.05),_0_0_0_1px_rgba(34,_42,_53,_0.04),_0_0_4px_rgba(34,_42,_53,_0.08),_0_16px_68px_rgba(47,_48,_55,_0.05),_0_1px_0_rgba(255,_255,_255,_0.1)_inset]"
             />
             <div className="bg-gradient-to-r from-blue-200 via-gray-700 to-gray-500 rounded-lg object-cover h-30 md:h-44 lg:h-60 w-full shadow-[0_0_24px_rgba(34,_42,_53,_0.06),_0_1px_1px_rgba(0,_0,_0,_0.05),_0_0_0_1px_rgba(34,_42,_53,_0.04),_0_0_4px_rgba(34,_42,_53,_0.08),_0_16px_68px_rgba(47,_48,_55,_0.05),_0_1px_0_rgba(255,_255,_255,_0.1)_inset]">
-              <div className="p-5 sm:p-8 flex flex-col items-start justify-center">
+              <div className="p-2 sm:p-8 flex flex-col items-start justify-center">
                 <h2 className="text-white font-bold text-xs sm:text-2xl leading-tight mb-3">
                 Event Registration closes -
                 </h2>
@@ -90,7 +90,7 @@ export function TimelineDemo() {
               className="rounded-lg object-cover h-40 md:h-44 lg:h-60 w-full shadow-[0_0_24px_rgba(34,_42,_53,_0.06),_0_1px_1px_rgba(0,_0,_0,_0.05),_0_0_0_1px_rgba(34,_42,_53,_0.04),_0_0_4px_rgba(34,_42,_53,_0.08),_0_16px_68px_rgba(47,_48,_55,_0.05),_0_1px_0_rgba(255,_255,_255,_0.1)_inset]"
             />
             <div className="bg-gradient-to-r from-blue-200 via-gray-700 to-gray-500 rounded-lg object-cover h-30 md:h-44 lg:h-60 w-full shadow-[0_0_24px_rgba(34,_42,_53,_0.06),_0_1px_1px_rgba(0,_0,_0,_0.05),_0_0_0_1px_rgba(34,_42,_53,_0.04),_0_0_4px_rgba(34,_42,_53,_0.08),_0_16px_68px_rgba(47,_48,_55,_0.05),_0_1px_0_rgba(255,_255,_255,_0.1)_inset]">
-              <div className="p-5 sm:p-8 flex flex-col items-start justify-center">
+              <div className="p-2 sm:p-8 flex flex-col items-start justify-center">
                 <h2 className="mb-5 text-white font-bold text-xs sm:text-2xl leading-tight">
                 PRIMIERLY ROUND
                 </h2>
