@@ -33,7 +33,7 @@ export function TimelineDemo() {
                   Event Registration Starts - 
                 </h2>
                 <p className="text-white text-xs sm:text-sm leading-snug">
-                  The event registration starts on 15th Dec.
+                  The event registration starts from 23rd Dec.
                 </p>
               </div>
             </div>
@@ -50,7 +50,7 @@ export function TimelineDemo() {
                 Event Registration closes -
                 </h2>
                 <p className="text-white text-xs sm:text-sm leading-snug">
-                The event registation gets close on 5th jan
+                The event registation closes on 13th jan.
                 </p>
               </div>
             </div>
@@ -140,23 +140,25 @@ export function TimelineDemo() {
       title: "DEADLINES",
       content: (
         <div>
-          <p className="text-neutral-300 dark:text-neutral-200 text-lg md:text-xl font-normal mb-4">
+          {/* <p className="text-neutral-300 dark:text-neutral-200 text-lg md:text-xl font-normal mb-4">
             And here is the complete timeline of the event...
-          </p>
+          </p> */}
           <div className="mb-8">
-            <div className="flex gap-2 items-center text-neutral-300 dark:text-neutral-300 text-xs md:text-xl">
-            <SlCalender /> Event start : 23rd December 2024
+            <div className="flex gap-2 items-center text-neutral-300 dark:text-neutral-300 text-xs md:text-xl mb-2 sm:mb-2">
+            <SlCalender className="inline-block align-middle" /> Registration Starts : 23rd December 2024
             </div>
-            <div className="flex gap-2 items-center text-neutral-300 dark:text-neutral-300 text-xs md:text-xl">
-            <SlCalender /> Event closes : 13th January 2025
+            <div className="flex gap-2 items-center text-neutral-300 dark:text-neutral-300 text-xs md:text-xl mb-2 sm:mb-2">
+            <SlCalender className="inline-block align-middle" /> Registration Closes : 13th January 2025
             </div>
-            <div className="flex gap-2 items-center text-neutral-300 dark:text-neutral-300 text-xs md:text-xl">
-            <SlCalender /> Round 1 : 16th January 2025
+            <div className="flex gap-2 items-center text-neutral-300 dark:text-neutral-300 text-xs md:text-xl mb-2 sm:mb-2">
+            <SlCalender className="inline-block align-middle" /> Preliminary round : 16th January 2025
             </div>
-            <div className="flex gap-2 items-center text-neutral-300 dark:text-neutral-300 text-xs md:text-xl">
-            <SlCalender /> Round 2 : 19th January 2025
+            <div className="flex gap-2 items-center text-neutral-300 dark:text-neutral-300 text-xs md:text-xl mb-2 sm:mb-2">
+            <SlCalender className="inline-block align-middle"/> Presentation round : 19th January 2025
             </div>
           </div>
+
+          
           <p className="text-white dark:text-neutral-200 text-sm md:text-lg font-normal">
             {/* Check out{" "} */}
             <a
