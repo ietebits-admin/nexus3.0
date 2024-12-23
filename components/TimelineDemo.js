@@ -143,29 +143,29 @@ export function TimelineDemo() {
           </p>
           <div className="mb-8">
             <div className="flex gap-2 items-center text-neutral-300 dark:text-neutral-300 text-xs md:text-lg">
-              ✅ Event start : 15 December 2024
+              ✅ Event start : 23rd December 2024
             </div>
             <div className="flex gap-2 items-center text-neutral-300 dark:text-neutral-300 text-xs md:text-lg">
-              ✅ Event closes : 5th January 2025
+              ✅ Event closes : 13th January 2025
             </div>
             <div className="flex gap-2 items-center text-neutral-300 dark:text-neutral-300 text-xs md:text-lg">
-              ✅ Round 1 : 9th January 2025
+              ✅ Round 1 : 16th January 2025
             </div>
             <div className="flex gap-2 items-center text-neutral-300 dark:text-neutral-300 text-xs md:text-lg">
-              ✅ Round 2 : 15Th January 2025
+              ✅ Round 2 : 19th January 2025
             </div>
           </div>
-          <p className="text-neutral-800 dark:text-neutral-200 text-xs md:text-sm font-normal">
+          <p className="text-white dark:text-neutral-200 text-xs md:text-sm font-normal">
             {/* Check out{" "} */}
             <a
               //   href="https://aceternity.com/changelog"
               target="_blank"
               rel="noopener noreferrer"
-              className="text-blue-500 hover:text-blue-700 underline"
+              className="text-red-500 hover:text-red-700"
             >
-              {/* our changelog */}
+              Winner Announcement
             </a>{" "}
-            {/* for more details. */}
+            on 21st January 2025.
           </p>
         </div>
       ),
