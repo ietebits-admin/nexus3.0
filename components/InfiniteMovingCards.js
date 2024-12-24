@@ -4,10 +4,10 @@ import { InfiniteMovingCards } from "./infinite-moving-cards";
 export function InfiniteMovingCardsDemo() {
   return (
     <div
-      className="mb-8 h-[20rem] sm:h-[25rem] rounded-md flex flex-col antialiased bg-black dark:bg-black dark:bg-grid-white/[0.05] items-center justify-center relative overflow-hidden"
+      className="mb-16 rounded-md flex flex-col antialiased bg-black dark:bg-black dark:bg-grid-white/[0.05] items-center justify-center relative overflow-hidden"
     >
-        <h1 className=" ml-15 sm:ml-30 mb-30 font-bold  text-3xl md:text-6xl my-4  justify-center items-center flex  bg-gradient-to-r from-blue-300 via-gray-700 to-gray-400    text-transparent bg-clip-text pb-5  w-fit mx-3">
-        Previous Sponsors
+      <h1 className="mb-30 font-bold  text-3xl md:text-6xl my-4  justify-center items-center flex  bg-gradient-to-r from-gray-200 via-gray-600 to-gray-200 text-transparent bg-clip-text pb-5  w-fit">
+        PREVIOUS SPONSERS
       </h1>
       <InfiniteMovingCards items={testimonials} direction="right" speed="fast" />
     </div>
@@ -17,11 +17,11 @@ export function InfiniteMovingCardsDemo() {
 const testimonials = [
   {
     id: 1,
-    image: "/img/sponser-11.png",
+    image: "/img/2.png",
   },
   {
     id: 2,
-    image: "/img/sponser-22.png",
+    image: "/img/3.png",
   },
   {
     id: 3,
@@ -29,6 +29,6 @@ const testimonials = [
   },
   {
     id: 4,
-    image: "/img/sponser-44.png",
+    image: "/img/4.png",
   },
 ];

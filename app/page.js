@@ -5,12 +5,13 @@ import { TimelineDemo } from "@/components/TimelineDemo";
 
 export default function Home() {
   return (
-      <div>
-        <HeroScrollDemo/>
-        <AnimatedTestimonialsDemo />
-        <TimelineDemo/>
-        <InfiniteMovingCardsDemo />
-      </div>
+    <div>
+      {/*  */}
+      <HeroScrollDemo />
+      {/* <AnimatedTestimonialsDemo /> */}
+      <TimelineDemo />
+      <InfiniteMovingCardsDemo />
+    </div>
   );
 }
 
