@@ -10,11 +10,9 @@ export function HeroScrollDemo() {
         titleComponent={
           <>
             <h1 className="text-xl sm:text-4xl font-semibold text-white dark:text-white mb-10 sm:mb-20">
-            WELCOME TO THE WORLD OF DEVELOPMENT <br />
-              {/* Unleash the power of <br /> */}
+            WELCOME TO THE WORLD OF WEB DEVELOPMENT <br />
               
               <span className="text-5xl md:text-[7rem] font-bold mt-1 leading-none     bg-gradient-to-r from-blue-400 via-gray-600 to-gray-400 text-transparent bg-clip-text">
-                {/* Scroll Animations */}
                 NEXUS-3.0
               </span>
             </h1>

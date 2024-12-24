@@ -21,13 +21,7 @@ export function TimelineDemo() {
               height={500}
               className=" transition-transform duration-500 hovere:scale-500 aspect-square group-hover:scale-1 ease-out rounded-lg object-cover h-40 md:h-44 lg:h-60 w-full shadow-[0_0_24px_rgba(34,_42,_53,_0.06),_0_1px_1px_rgba(0,_0,_0,_0.05),_0_0_0_1px_rgba(34,_42,_53,_0.04),_0_0_4px_rgba(34,_42,_53,_0.08),_0_16px_68px_rgba(47,_48,_55,_0.05),_0_1px_0_rgba(255,_255,_255,_0.1)_inset] "
             />
-            {/* <div className="bg-neutral-400 rounded-lg object-cover h-20 md:h-44 lg:h-60 w-full shadow-[0_0_24px_rgba(34,_42,_53,_0.06),_0_1px_1px_rgba(0,_0,_0,_0.05),_0_0_0_1px_rgba(34,_42,_53,_0.04),_0_0_4px_rgba(34,_42,_53,_0.08),_0_16px_68px_rgba(47,_48,_55,_0.05),_0_1px_0_rgba(255,_255,_255,_0.1)_inset]">
-             <div className="ml-5 mt-10 items-center justify-center">
-             <h2 className="text-black mb-0 sm:mb-5 font-bold text-xs sm:text-lg ">Event Registration starts</h2>
-             <p className="mr-5">The event registation start on 15th dec</p>
-             </div>
-            </div> */}
-            <div className=" bg-gradient-to-r from-blue-200 via-gray-700 to-gray-500 rounded-lg object-cover h-30 md:h-44 lg:h-60 w-full shadow-[0_0_24px_rgba(34,_42,_53,_0.06),_0_1px_1px_rgba(0,_0,_0,_0.05),_0_0_0_1px_rgba(34,_42,_53,_0.04),_0_0_4px_rgba(34,_42,_53,_0.08),_0_16px_68px_rgba(47,_48,_55,_0.05),_0_1px_0_rgba(255,_255,_255,_0.1)_inset]">
+            <div className=" bg-gradient-to-br from-blue-200 via-gray-700 to-gray-500 rounded-lg object-cover h-30 md:h-44 lg:h-60 w-full shadow-[0_0_24px_rgba(34,_42,_53,_0.06),_0_1px_1px_rgba(0,_0,_0,_0.05),_0_0_0_1px_rgba(34,_42,_53,_0.04),_0_0_4px_rgba(34,_42,_53,_0.08),_0_16px_68px_rgba(47,_48,_55,_0.05),_0_1px_0_rgba(255,_255,_255,_0.1)_inset]">
               <div className="p-2 sm:p-8 flex flex-col items-start justify-center">
                 <h2 className="text-white font-bold text-xs sm:text-2xl leading-tight mb-3">
                   Event Registration Starts - 
@@ -44,7 +38,7 @@ export function TimelineDemo() {
               height={500}
               className="object-center rounded-lg object-cover h-40 md:h-44 lg:h-60 w-full shadow-[0_0_24px_rgba(34,_42,_53,_0.06),_0_1px_1px_rgba(0,_0,_0,_0.05),_0_0_0_1px_rgba(34,_42,_53,_0.04),_0_0_4px_rgba(34,_42,_53,_0.08),_0_16px_68px_rgba(47,_48,_55,_0.05),_0_1px_0_rgba(255,_255,_255,_0.1)_inset]"
             />
-            <div className="bg-gradient-to-r from-blue-200 via-gray-700 to-gray-500 rounded-lg object-cover h-30 md:h-44 lg:h-60 w-full shadow-[0_0_24px_rgba(34,_42,_53,_0.06),_0_1px_1px_rgba(0,_0,_0,_0.05),_0_0_0_1px_rgba(34,_42,_53,_0.04),_0_0_4px_rgba(34,_42,_53,_0.08),_0_16px_68px_rgba(47,_48,_55,_0.05),_0_1px_0_rgba(255,_255,_255,_0.1)_inset]">
+            <div className="bg-gradient-to-br from-blue-200 via-gray-700 to-gray-500 rounded-lg object-cover h-30 md:h-44 lg:h-60 w-full shadow-[0_0_24px_rgba(34,_42,_53,_0.06),_0_1px_1px_rgba(0,_0,_0,_0.05),_0_0_0_1px_rgba(34,_42,_53,_0.04),_0_0_4px_rgba(34,_42,_53,_0.08),_0_16px_68px_rgba(47,_48,_55,_0.05),_0_1px_0_rgba(255,_255,_255,_0.1)_inset]">
               <div className="p-2 sm:p-8 flex flex-col items-start justify-center">
                 <h2 className="text-white font-bold text-xs sm:text-2xl leading-tight mb-3">
                 Event Registration closes -
@@ -89,7 +83,7 @@ export function TimelineDemo() {
               height={500}
               className="rounded-lg object-cover h-40 md:h-44 lg:h-60 w-full shadow-[0_0_24px_rgba(34,_42,_53,_0.06),_0_1px_1px_rgba(0,_0,_0,_0.05),_0_0_0_1px_rgba(34,_42,_53,_0.04),_0_0_4px_rgba(34,_42,_53,_0.08),_0_16px_68px_rgba(47,_48,_55,_0.05),_0_1px_0_rgba(255,_255,_255,_0.1)_inset]"
             />
-            <div className="bg-gradient-to-r from-blue-200 via-gray-700 to-gray-500 rounded-lg object-cover h-30 md:h-44 lg:h-60 w-full shadow-[0_0_24px_rgba(34,_42,_53,_0.06),_0_1px_1px_rgba(0,_0,_0,_0.05),_0_0_0_1px_rgba(34,_42,_53,_0.04),_0_0_4px_rgba(34,_42,_53,_0.08),_0_16px_68px_rgba(47,_48,_55,_0.05),_0_1px_0_rgba(255,_255,_255,_0.1)_inset]">
+            <div className="bg-gradient-to-br from-blue-200 via-gray-700 to-gray-500 rounded-lg object-cover h-30 md:h-44 lg:h-60 w-full shadow-[0_0_24px_rgba(34,_42,_53,_0.06),_0_1px_1px_rgba(0,_0,_0,_0.05),_0_0_0_1px_rgba(34,_42,_53,_0.04),_0_0_4px_rgba(34,_42,_53,_0.08),_0_16px_68px_rgba(47,_48,_55,_0.05),_0_1px_0_rgba(255,_255,_255,_0.1)_inset]">
               <div className="p-2 sm:p-8 flex flex-col items-start justify-center">
                 <h2 className="mb-5 text-white font-bold text-xs sm:text-2xl leading-tight">
                 PRELIMINARY ROUND
@@ -114,7 +108,7 @@ export function TimelineDemo() {
               height={500}
               className="rounded-lg object-cover h-40 md:h-44 lg:h-60 w-full shadow-[0_0_24px_rgba(34,_42,_53,_0.06),_0_1px_1px_rgba(0,_0,_0,_0.05),_0_0_0_1px_rgba(34,_42,_53,_0.04),_0_0_4px_rgba(34,_42,_53,_0.08),_0_16px_68px_rgba(47,_48,_55,_0.05),_0_1px_0_rgba(255,_255,_255,_0.1)_inset]"
             />
-             <div className="bg-gradient-to-r from-blue-200 via-gray-700 to-gray-500 rounded-lg object-cover h-30 md:h-44 lg:h-60 w-full shadow-[0_0_24px_rgba(34,_42,_53,_0.06),_0_1px_1px_rgba(0,_0,_0,_0.05),_0_0_0_1px_rgba(34,_42,_53,_0.04),_0_0_4px_rgba(34,_42,_53,_0.08),_0_16px_68px_rgba(47,_48,_55,_0.05),_0_1px_0_rgba(255,_255,_255,_0.1)_inset]">
+             <div className="bg-gradient-to-br from-blue-200 via-gray-700 to-gray-500 rounded-lg object-cover h-30 md:h-44 lg:h-60 w-full shadow-[0_0_24px_rgba(34,_42,_53,_0.06),_0_1px_1px_rgba(0,_0,_0,_0.05),_0_0_0_1px_rgba(34,_42,_53,_0.04),_0_0_4px_rgba(34,_42,_53,_0.08),_0_16px_68px_rgba(47,_48,_55,_0.05),_0_1px_0_rgba(255,_255,_255,_0.1)_inset]">
               <div className="p-2 sm:p-8 flex flex-col items-start justify-center">
                 <h2 className="mb-5 text-white font-bold text-xs sm:text-2xl leading-tight">
                 PRESENTATION ROUND
